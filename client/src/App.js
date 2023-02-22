@@ -21,9 +21,10 @@ function App() {
             <Route exact path="/admin/problems" element={<RecordList />} /> 
             <Route path="/edit/:id" element={<Edit />} />
             <Route path="/admin/create" element={<Create />} />
-            <Route path="/" element={<LoginPage />} />
-            <Route path="/signup" element={<SignupPage />} />
-            <Route path="/problems" element={<Problems/>} />
+//             <Route path="/" element={<LoginPage />} />
+//             <Route path="/signup" element={<SignupPage />} />
+//             <Route path="/problems" element={<Problems/>} />
+            <Route path="/" element={<Problems />} />
             <Route path="/solve/:id" element={<Landing/>} />
           </Routes>
         </BrowserRouter>
