@@ -11,6 +11,8 @@ To run the project follow the below steps:
 Now open new terminal window:
 1) Navigate to the project folder.
 2) Enter the command "cd client".
-3) Enter the command "npm init -y".
-4) Enter the command "npm start".
-5) you can see the output in the browser.
+3) Enter the command "npm install".
+4) Enter the command "npm init -y".
+5) Enter the command "npm start".
+6) you can see the output in the browser.
+
